@@ -17,10 +17,13 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* SNR Infra BuildTech Brand Colors */
+    --primary: 213 94% 50%; /* Blue #0d6efd */
+    --primary-foreground: 0 0% 100%;
+    --primary-dark: 213 94% 40%;
+    --primary-light: 213 94% 60%;
 
-    --secondary: 210 40% 96.1%;
+    --secondary: 210 20% 96%;
     --secondary-foreground: 222.2 47.4% 11.2%;
 
     --muted: 210 40% 96.1%;
@@ -29,8 +32,36 @@ All colors MUST be HSL.
     --accent: 210 40% 96.1%;
     --accent-foreground: 222.2 47.4% 11.2%;
 
+    /* Orange CTA Color */
+    --cta: 24 100% 50%; /* Orange for CTAs */
+    --cta-foreground: 0 0% 100%;
+    --cta-hover: 24 100% 45%;
+
+    /* Trust/Safety Green */
+    --trust: 142 76% 36%;
+    --trust-foreground: 0 0% 100%;
+
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
+
+    /* Construction Theme Colors */
+    --construction-dark: 210 30% 8%;
+    --construction-light: 210 20% 96%;
+    --construction-accent: 213 50% 20%;
+
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--primary-dark)) 100%);
+    --gradient-trust: linear-gradient(135deg, hsl(var(--trust)) 0%, hsl(var(--primary)) 100%);
+    --gradient-overlay: linear-gradient(135deg, rgba(13, 110, 253, 0.9) 0%, rgba(13, 110, 253, 0.7) 100%);
+
+    /* Shadows */
+    --shadow-premium: 0 20px 40px -10px hsl(var(--primary) / 0.2);
+    --shadow-card: 0 4px 20px hsl(var(--primary) / 0.1);
+    --shadow-cta: 0 8px 25px hsl(var(--cta) / 0.3);
+
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
